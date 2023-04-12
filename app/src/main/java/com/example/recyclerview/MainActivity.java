@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 int wordListSize = mWordList.size();
                 // Add a new word to the wordList.
-                mWordList.addLast("+ Word " + wordListSize);
+                mWordList.addLast("+ Rohit list Item " + wordListSize);
                 // Notify the adapter that the data has changed.
                 mRecyclerView.getAdapter().notifyItemInserted(wordListSize);
                 // Scroll to the bottom.
